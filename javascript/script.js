@@ -12,4 +12,10 @@ let a,b;
 a= 3;
 b= (100+50)*a;
 
-document.getElementById("resultado2").innerHTML = b;
+document.getElementById("resultado2").innerHTML = b;    
+
+function pegaValor(){
+    let sabrina = document.getElementById("meuInput")
+
+    let ValorDigitado = sabrina.value
+}
